@@ -1,7 +1,7 @@
 {
-  "name": "proname",
+  "name": "lredux",
   "version": "0.1.0",
-  "description": "",
+  "description": "Used react-redux, webpack and jest",
   "private": true,
   "main": "webpack.config.js",
   "dependencies": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "css-loader": "^0.25.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "jest": "^15.1.1",
     "node-sass": "^3.10.0",
     "redux-devtools": "^3.3.1",
     "sass-loader": "^4.0.2",
@@ -21,6 +22,10 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": "true"
+  },
+  "author": "lizziejc",
   "license": "ISC"
 }
